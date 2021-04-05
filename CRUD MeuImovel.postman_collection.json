@@ -1,0 +1,256 @@
+{
+	"info": {
+		"_postman_id": "4a175cd3-23bb-49f4-9bc7-05bbf468770c",
+		"name": "CRUD MeuImovel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/v1/real_states",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"real_states"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/v1/real_states",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "oi",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "oi",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "oi",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "slug",
+							"value": "oi",
+							"type": "text"
+						},
+						{
+							"key": "bedrooms",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "bathrooms",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "property_area",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "total_property_area",
+							"value": "220",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/api/v1/real_states",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"real_states"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/v1/real_states/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "300",
+							"type": "text"
+						},
+						{
+							"key": "slug",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "bedrooms",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "bathrooms",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "property_area",
+							"value": "300",
+							"type": "text"
+						},
+						{
+							"key": "total_property_area",
+							"value": "330",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/api/v1/real_states/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"real_states",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/v1/real_states/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "slug",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "bedrooms",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "bathrooms",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "property_area",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "total_property_area",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/api/v1/real_states/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"real_states",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
